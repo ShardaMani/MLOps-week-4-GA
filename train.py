@@ -27,7 +27,7 @@ metrics_path = "metrics.csv"
 
 # Column names for the Iris dataset
 col_names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species']
-iris_df = pd.read_csv(data_path, header=None, names=col_names)
+iris_df = pd.read_csv(data_path)
 
 print("Dataset loaded successfully.")
 
