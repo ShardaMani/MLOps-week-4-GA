@@ -53,7 +53,7 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Combine test results and metrics into a single report file
-          echo "## 🧪 Unit Test Results" > report.md
+          echo "## Unit Test Results" > report.md
           cat test_output.txt >> report.md
 
           echo -e "\n\n## 📊 Model Metrics" >> report.md
