@@ -1,9 +1,5 @@
 outs:
-<<<<<<< HEAD
 - md5: 45c41b18bdf4cdb6a34a9807d10832d3
-=======
-- md5: a7902ad50d8417e018c96d1dd9f49f14
->>>>>>> main
   size: 35560
   hash: md5
   path: iris_model.h5
