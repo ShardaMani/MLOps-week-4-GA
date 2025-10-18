@@ -37,8 +37,8 @@ jobs:
 
       - name: Run Unit Tests
         run: |
-         # python -m unittest test_iris_model.py > test_output.txt 2>&1
-         python -m unittest test_iris_model.py 
+          python -m unittest test_iris_model.py > test_output.txt 2>&1
+         
 
       - name: Setup CML
         uses: iterative/setup-cml@v1
