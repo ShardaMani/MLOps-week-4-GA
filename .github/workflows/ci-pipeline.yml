@@ -1,0 +1,56 @@
+name: Iris Model CI Pipeline
+
+on:
+  push:
+    branches: [ dev ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          # Install a specific, stable version of DVC with GCS support
+          pip install dvc-gs
+
+      - name: Authenticate to Google Cloud
+        uses: 'google-github-actions/auth@v2'
+        with:
+          credentials_json: '${{ secrets.GCP_SA_KEY }}'
+
+      - name: Configure DVC and Pull Data
+        run: |
+          dvc remote add --default mygcs gs://mlops-course-sh-mlops-473205-v4-unique
+          dvc pull --force
+
+      - name: Run Unit Tests
+        run: |
+          python -m unittest test_iris_model.py > test_output.txt 2>&1
+         
+
+      - name: Setup CML
+        uses: iterative/setup-cml@v1
+
+      - name: Create CML Report
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "## 🧪 Unit Test Results" > report.md
+          cat test_output.txt >> report.md
+
+          echo -e "\n\n## 📊 Model Metrics" >> report.md
+          cat metrics.csv >> report.md
+
+          cml comment create report.md

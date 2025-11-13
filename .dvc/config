@@ -1,0 +1,4 @@
+[core]
+    remote = mygcsremote
+['remote "mygcsremote"']
+    url = gs://mlops-course-sh-mlops-473205-v4-unique
