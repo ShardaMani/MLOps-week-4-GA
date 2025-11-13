@@ -1,0 +1,10 @@
+artifact_location: file:///home/jupyter/MLOps-week-4-GA/mlruns/803930704986958347/models/m-2283dc0ff4c74e97b2748ef4752b2fdd/artifacts
+creation_timestamp: 1763033563742
+experiment_id: '803930704986958347'
+last_updated_timestamp: 1763033566631
+model_id: m-2283dc0ff4c74e97b2748ef4752b2fdd
+model_type: null
+name: models
+source_run_id: 17f68e15427a4d02ba65c69f15415b46
+status: 2
+status_message: null

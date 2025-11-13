@@ -1,0 +1,231 @@
+nohup: ignoring input
+WARNING: Accepting ALL hosts. This may leave the server vulnerable to DNS rebinding attacks.
+WARNING: Allowing ALL origins for CORS. This allows ANY website to access your MLflow data. This configuration is only recommended for local development.
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:256: FutureWarning: Filesystem tracking backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri, artifact_uri)
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:285: FutureWarning: Filesystem model registry backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri)
+[MLflow] Security middleware enabled. Allowed hosts: *. CORS origins: *.
+INFO:     Uvicorn running on http://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started parent process [15180]
+INFO:     Started server process [15183]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15182]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15185]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15184]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     103.158.43.24:41201 - "GET / HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41201 - "GET /static-files/static/js/main.380f9aea.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61649 - "GET /static-files/static/css/main.280d6c90.css HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61649 - "GET /static-files/static/js/5759.45405231.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41201 - "GET /static-files/static/js/3617.10568100.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9788 - "GET /static-files/static/css/762.26533251.chunk.css HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61649 - "GET /static-files/static/js/762.335831d3.chunk.js HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:256: FutureWarning: Filesystem tracking backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri, artifact_uri)
+INFO:     103.158.43.24:61649 - "GET /ajax-api/2.0/mlflow/experiments/search?max_results=5&order_by=last_update_time+DESC HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9788 - "GET /static-files/favicon.ico HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41796 - "GET /static-files/static/js/565.222c289f.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/6016.a73a7053.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/css/565.fd7db8ca.chunk.css HTTP/1.1" 200 OK
+INFO:     103.158.43.24:49942 - "GET /static-files/static/js/8799.de860ae0.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /static-files/static/js/2365.08729b99.chunk.js HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:256: FutureWarning: Filesystem tracking backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri, artifact_uri)
+INFO:     103.158.43.24:49942 - "POST /graphql HTTP/1.1" 200 OK
+INFO:     103.158.43.24:42822 - "GET /static-files/static/js/4499.a03329c0.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/js/683.b5476dee.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/8813.6db77245.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41796 - "GET /static-files/static/js/8975.6d6dd5b6.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/css/9563.3a1ae3b9.chunk.css HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/1090.9c665bdd.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /static-files/static/js/8169.4fbe9ffa.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/2334.fa3bbeb7.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41796 - "GET /static-files/static/js/194.bffb2d90.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/js/8906.83fbad33.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /static-files/static/js/8800.a03d202d.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/2354.b6575389.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41796 - "GET /static-files/static/js/3887.80196d3a.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/js/1538.e01eb384.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /static-files/static/js/9635.23ed64fc.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/js/657.85c37963.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/9791.9560c16c.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41796 - "GET /static-files/static/js/8555.3803d908.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /static-files/static/js/5167.7a115efb.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/js/363.a9a32c36.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41796 - "GET /static-files/static/js/4802.4b3988ed.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41233 - "GET /static-files/static/js/1241.879a3257.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9077 - "GET /static-files/static/js/1573.82c5c603.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22789 - "GET /static-files/static/js/9563.941d9737.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:49942 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:65288 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:28653 - "GET /static-files/static/css/1575.05d081e5.chunk.css HTTP/1.1" 200 OK
+INFO:     103.158.43.24:24336 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:10225 - "POST /ajax-api/2.0/mlflow/experiments/search-datasets HTTP/1.1" 200 OK
+INFO:     103.158.43.24:11263 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:65288 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:10225 - "GET /static-files/static/js/1575.6f955232.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:24336 - "GET /static-files/static/js/5964.4d84f1bd.chunk.js HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:256: FutureWarning: Filesystem tracking backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri, artifact_uri)
+INFO:     103.158.43.24:27067 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:14664 - "GET /static-files/static/js/5839.77bded50.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:42418 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:42418 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:42418 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:256: FutureWarning: Filesystem tracking backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri, artifact_uri)
+INFO:     103.158.43.24:44195 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:33949 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:58321 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:7240 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:59466 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:59466 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:55795 - "GET /static-files/static/js/6831.d1a4e11f.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:59466 - "GET /static-files/static/js/8977.f9196701.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:14217 - "GET /static-files/static/css/8923.b80374b9.chunk.css HTTP/1.1" 200 OK
+INFO:     103.158.43.24:51461 - "GET /static-files/static/js/1876.132109ab.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:39276 - "GET /static-files/static/js/5776.36e18643.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:45534 - "GET /static-files/static/js/1352.43b05edb.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:14217 - "GET /static-files/static/js/4484.9cee0180.chunk.js HTTP/1.1" 200 OK
+INFO:     103.158.43.24:55795 - "GET /static-files/static/js/8923.a9ff1c8d.chunk.js HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:285: FutureWarning: Filesystem model registry backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri)
+INFO:     103.158.43.24:55795 - "GET /ajax-api/2.0/mlflow/model-versions/search?filter=run_id%3D%2769cced6e6a1445fa9d50f9ec2d91b774%27 HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:285: FutureWarning: Filesystem model registry backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri)
+INFO:     103.158.43.24:59466 - "POST /graphql HTTP/1.1" 200 OK
+INFO:     103.158.43.24:59466 - "GET /ajax-api/2.0/mlflow/model-versions/search?filter=tags.%60mlflow.prompt.is_prompt%60+%3D+%27true%27+AND+tags.%60mlflow.prompt.run_ids%60+ILIKE+%22%2569cced6e6a1445fa9d50f9ec2d91b774%25%22 HTTP/1.1" 200 OK
+INFO:     103.158.43.24:14217 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:55795 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:15758 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31488 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:15427 - "POST /ajax-api/2.0/mlflow/experiments/search-datasets HTTP/1.1" 200 OK
+INFO:     103.158.43.24:38339 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:52483 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:34007 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31488 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:15758 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:15758 - "GET /ajax-api/2.0/mlflow/model-versions/search?filter=run_id%3D%275b5f3ea299864ac6a31b7ac57c04cec1%27 HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:285: FutureWarning: Filesystem model registry backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri)
+INFO:     103.158.43.24:31488 - "POST /graphql HTTP/1.1" 200 OK
+INFO:     103.158.43.24:34007 - "GET /ajax-api/2.0/mlflow/model-versions/search?filter=tags.%60mlflow.prompt.is_prompt%60+%3D+%27true%27+AND+tags.%60mlflow.prompt.run_ids%60+ILIKE+%22%255b5f3ea299864ac6a31b7ac57c04cec1%25%22 HTTP/1.1" 200 OK
+INFO:     103.158.43.24:15758 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31488 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:30334 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9867 - "POST /ajax-api/2.0/mlflow/experiments/search-datasets HTTP/1.1" 200 OK
+INFO:     103.158.43.24:39391 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:24192 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22912 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31526 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9867 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:30334 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:30334 - "GET /ajax-api/2.0/mlflow/model-versions/search?filter=run_id%3D%276dc4e59489c14bdc8e7c7d3eb57432be%27 HTTP/1.1" 200 OK
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:285: FutureWarning: Filesystem model registry backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri)
+INFO:     103.158.43.24:9867 - "POST /graphql HTTP/1.1" 200 OK
+INFO:     103.158.43.24:22912 - "GET /ajax-api/2.0/mlflow/model-versions/search?filter=tags.%60mlflow.prompt.is_prompt%60+%3D+%27true%27+AND+tags.%60mlflow.prompt.run_ids%60+ILIKE+%22%256dc4e59489c14bdc8e7c7d3eb57432be%25%22 HTTP/1.1" 200 OK
+INFO:     103.158.43.24:30334 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:9867 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:27091 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61690 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:35366 - "POST /ajax-api/2.0/mlflow/experiments/search-datasets HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41215 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41104 - "POST /ajax-api/2.0/mlflow/logged-models/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:19467 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:27091 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61690 - "GET /ajax-api/2.0/mlflow/gateway-proxy?gateway_path=api%2F2.0%2Fendpoints%2F HTTP/1.1" 200 OK
+INFO:     103.158.43.24:32437 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:36381 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:36381 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:32437 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:36381 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:33823 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41124 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:23112 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:35190 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:57676 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:51373 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61817 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:10527 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:63610 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:50382 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:13082 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:33235 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:32915 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:14410 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:34857 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:19626 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:19626 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:34857 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:34857 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:19626 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:34857 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:10326 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:48676 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31235 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41774 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:32176 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:19399 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:60860 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:6213 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:8902 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:47067 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31226 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:37781 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61817 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:65406 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31321 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:29276 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:13922 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:30099 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:33842 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:29622 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:12570 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:55334 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61641 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:21845 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:21845 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61641 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:39734 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:42236 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:42030 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:19467 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:17470 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:41764 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:31712 - "GET /ajax-api/2.0/mlflow/traces?experiment_ids=803930704986958347&order_by=timestamp_ms%20DESC&max_results=1&filter= HTTP/1.1" 200 OK
+INFO:     103.158.43.24:49333 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:18149 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:33808 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:61154 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     103.158.43.24:62124 - "POST /ajax-api/2.0/mlflow/runs/search HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15184]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15183]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15185]
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15182]
+INFO:     Received SIGTERM, exiting.
+INFO:     Waiting for child process [15182]
+INFO:     Waiting for child process [15183]
+INFO:     Waiting for child process [15184]
+INFO:     Waiting for child process [15185]
+INFO:     Stopping parent process [15180]

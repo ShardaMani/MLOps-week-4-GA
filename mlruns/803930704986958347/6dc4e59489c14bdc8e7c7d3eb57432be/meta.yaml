@@ -1,0 +1,14 @@
+artifact_uri: file:///home/jupyter/MLOps-week-4-GA/mlruns/803930704986958347/6dc4e59489c14bdc8e7c7d3eb57432be/artifacts
+end_time: 1763033542993
+entry_point_name: ''
+experiment_id: '803930704986958347'
+lifecycle_stage: active
+run_id: 6dc4e59489c14bdc8e7c7d3eb57432be
+run_name: seed_0_poison_5%
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763033539703
+status: 3
+tags: []
+user_id: jupyter

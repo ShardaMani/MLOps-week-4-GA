@@ -1,0 +1,22 @@
+nohup: ignoring input
+WARNING: Accepting ALL hosts. This may leave the server vulnerable to DNS rebinding attacks.
+WARNING: Allowing ALL origins for CORS. This allows ANY website to access your MLflow data. This configuration is only recommended for local development.
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:256: FutureWarning: Filesystem tracking backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri, artifact_uri)
+/home/jupyter/MLOps-week-4-GA/venv/lib/python3.10/site-packages/mlflow/server/handlers.py:285: FutureWarning: Filesystem model registry backend (e.g., './mlruns') is deprecated. Please switch to a database backend (e.g., 'sqlite:///mlflow.db'). For feedback, see: https://github.com/mlflow/mlflow/issues/18534
+  return FileStore(store_uri)
+[MLflow] Security middleware enabled. Allowed hosts: *. CORS origins: *.
+INFO:     Uvicorn running on http://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started parent process [15180]
+INFO:     Started server process [15183]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15182]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15185]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [15184]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

@@ -1,4 +1,6 @@
 [core]
-    remote = mygcsremote
+    remote = gcsremote
 ['remote "mygcsremote"']
     url = gs://mlops-course-sh-mlops-473205-v4-unique
+['remote "gcsremote"']
+    url = gs://mlops-week8-data-1763026867/dvc-cache
